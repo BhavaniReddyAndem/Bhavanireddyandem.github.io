@@ -1,4 +1,4 @@
-# personal portfolio. developed by farhana
+# personal portfolio
 
 ## About
 Description and show personal achievements
