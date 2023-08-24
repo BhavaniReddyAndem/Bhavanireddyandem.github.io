@@ -61,7 +61,7 @@ img {
 .mockup-item {
   float: left; /* Float the images side by side */
   margin-right: 10px; /* Adjust the spacing between mock-ups */
-  width: 18%; /* Set the width to distribute them evenly */
+  width: 17%; /* Set the width to distribute them evenly */
   box-sizing: border-box; /* Include padding and border in width calculation */
 }
 
