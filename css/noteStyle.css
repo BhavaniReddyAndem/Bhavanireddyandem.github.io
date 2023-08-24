@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
 
 body,
 html,
@@ -14,7 +14,7 @@ body {
 }
 
 div.board {
-  background-color: 'brown';
+  background-color: "brown";
   width: 100%;
   background: #fbaebe;
 }
@@ -22,11 +22,11 @@ div.board {
 div.note {
   height: 150px;
   width: 150px;
-  background-color: #FFF7C3;
+  background-color: #fff7c3;
   margin: 2px 0;
   position: absolute;
   cursor: -webkit-grab;
-  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 
@@ -50,7 +50,7 @@ div.note > span {
   bottom: 2px;
   right: 2px;
   opacity: 0;
-  transition: opacity .25s linear;
+  transition: opacity 0.25s linear;
 }
 
 div.note button {
@@ -59,7 +59,7 @@ div.note button {
 
 div.note > textarea {
   height: 75%;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .board > button {

@@ -54,6 +54,22 @@ img {
   transition: all 0.3s;
 }
 
+.app-mockups {
+  overflow: hidden; /* Hide overflow to prevent wrapping */
+}
+
+.mockup-item {
+  float: left; /* Float the images side by side */
+  margin-right: 10px; /* Adjust the spacing between mock-ups */
+  width: 18%; /* Set the width to distribute them evenly */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.mockup-image {
+  width: 100%; /* Make the image fill the available space */
+  height: auto; /* Maintain aspect ratio */
+}
+
 /* texts */
 
 h1,
